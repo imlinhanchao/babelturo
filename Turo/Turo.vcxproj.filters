@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{48e2e230-7c62-483f-bd4b-4dd47da8bcc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{d2ed6366-937c-4b8d-b50a-00deca1210d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\json">
+      <UniqueIdentifier>{4249b0b6-f6a5-4bd2-be01-15a57195e419}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Turo.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Turo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Turo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TuroDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Base.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Cvt.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Ini.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Lib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Path.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Shell.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Clipboard.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Hook.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\Request.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\assertions.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\autolink.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\config.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\features.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\forwards.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\json.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\reader.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\value.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\version.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\json\writer.h">
+      <Filter>lib\json</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Translator.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Turo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TuroDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Base.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Cvt.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Ini.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Path.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Shell.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\Clipboard.cpp">
+      <Filter>inc</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\Hook.cpp">
+      <Filter>inc</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\Request.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="inc\Translator.cpp">
+      <Filter>inc</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Turo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
